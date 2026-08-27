@@ -70,7 +70,7 @@ int main(){
   int index = 0;
   while(1){
     update(&bodies, 2, delta_time);
-    if(index > 10000){
+    if(index > 10){
       //printf("body 1 (%f, %f) | body 2 (%f, %f)\n", b1.x, b1.y, b2.x, b2.y);
       printf("%f,%f|%f,%f\n", b1.x, b1.y, b2.x, b2.y);
       index = 0;
